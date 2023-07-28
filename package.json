@@ -1,0 +1,29 @@
+{
+  "name": "zz-upload-to-server-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js", 
+  "scripts": {
+    "start":"node app.js",
+    "dev":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joywu2021/zz-upload-to-server-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joywu2021/zz-upload-to-server-api/issues"
+  },
+  "homepage": "https://github.com/Joywu2021/zz-upload-to-server-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
